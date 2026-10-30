@@ -1,130 +1,388 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>perfumeria</title>
+    <meta name="description"
+        content="Descubre nuestra selección de perfumes de diseñador y de nicho en Perfumes Canarias.">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <title>Perfumes Canarias</title>
 </head>
+
 <body>
-    <header>
-        <h2>Perfumes Canarias</h2> 
+
+    <header class="site-header" id="home">
+        <div class="header-container">
+
+            <a class="brand" href="#home">
+                <img src="img/perfumes-canarias.png" alt="Perfumes Canarias">
+            </a>
+
+            <nav class="main-nav" aria-label="Navegación principal">
+                <a href="#designer">Diseñador</a>
+                <a href="#niche">Nicho</a>
+                <a href="#about">Sobre nosotros</a>
+                <a href="#tips">Consejos</a>
+                <a href="#contact">Contacto</a>
+            </nav>
+
+        </div>
     </header>
 
     <main>
-        <section>
-            <h2>Nuestros perfumes de diseñador</h2>
+
+        <!-- Main presentation -->
+        <section class="hero-section">
+
+            <div class="hero-content">
+                <p class="hero-label">Perfumes Canarias</p>
+
+                <h1>Encuentra una fragancia que hable de ti</h1>
+
+                <p>
+                    Descubre una selección de perfumes de diseñador y de nicho.
+                    Hay aromas para cada gusto y para cada momento.
+                </p>
+
+                <a class="hero-link" href="#designer">
+                    Ver perfumes
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <aside class="hero-note">
+                <i class="fa-solid fa-droplet" aria-hidden="true"></i>
+
+                <h2>Un aroma especial</h2>
+
+                <p>
+                    Elige entre fragancias conocidas y perfumes diferentes
+                    para encontrar tu favorito.
+                </p>
+            </aside>
+
+        </section>
+
+
+        <!-- Designer perfumes -->
+        <section class="catalog-section" id="designer">
+
+            <div class="section-heading">
+                <p class="section-label">Colección</p>
+
+                <h2>Nuestros perfumes de diseñador</h2>
+
+                <p>
+                    Fragancias de marcas conocidas que destacan por sus
+                    aromas y personalidad.
+                </p>
+            </div>
+
             <div class="gallery-card-container">
-                <div class="gallery-card">
+
+                <article class="gallery-card">
                     <div class="gallery-card-image-container">
-                        <img src="img/aqua_di_gio_profondo.png" alt="perfume">
+                        <img src="./img/aqua_di_gio_profondo.png" alt="Frasco de Aqua di Gio Profondo">
                     </div>
-                    <p>Aqua di gio profondo</p>
-                </div>
-                <div class="gallery-card">
+                    <h3>Aqua di Gio Profondo</h3>
+                </article>
+
+                <article class="gallery-card">
                     <div class="gallery-card-image-container">
-                        <img src="img/Born-In-Roma-Intense-Eau-De-Parfum-Spray-100Ml.jpg" alt="perfume">
+                        <img src="./img/Born-In-Roma-Intense-Eau-De-Parfum-Spray-100Ml.jpg" alt="Frasco de Valentino Born in Roma Intense">
                     </div>
-                    <p>Valentino Born in Roma Intense</p>
-                </div>
-                <div class="gallery-card">
+                    <h3>Valentino Born in Roma Intense</h3>
+                </article>
+
+                <article class="gallery-card">
                     <div class="gallery-card-image-container">
-                        <img src="img/coral-fantasy.jpg" alt="perfume">
+                        <img src="img/coral-fantasy.jpg" alt="Frasco de Valentino Coral Fantasy">
                     </div>
-                    <p>Coral fantasy de Valentino</p>
-                </div>
-                <div class="gallery-card">
+                    <h3>Coral Fantasy de Valentino</h3>
+                </article>
+
+                <article class="gallery-card">
                     <div class="gallery-card-image-container">
-                        <img src="img/invictus-edp.png" alt="perfume">
+                        <img src="img/invictus-edp.png" alt="Frasco de Invictus Eau de Parfum">
                     </div>
-                    <p>invictus edp</p>
-                </div>
-                <div class="gallery-card">
+                    <h3>Invictus EDP</h3>
+                </article>
+
+                <article class="gallery-card">
                     <div class="gallery-card-image-container">
-                        <img src="img/invictus-parfum.png" alt="perfume">
+                        <img src="img/invictus-parfum.png" alt="Frasco de Invictus Parfum">
                     </div>
-                    <p>Invictus parfum</p>
-                </div>
-                <div class="gallery-card">
+                    <h3>Invictus Parfum</h3>
+                </article>
+
+                <article class="gallery-card">
                     <div class="gallery-card-image-container">
-                        <img src="img/jpg-le-male.png" alt="perfume">
+                        <img src="img/jpg-le-male.png" alt="Frasco de Jean Paul Gaultier Le Male">
                     </div>
-                    <p>jpg le male</p>
-                </div>
-                <div class="gallery-card">
+                    <h3>JPG Le Male</h3>
+                </article>
+
+                <article class="gallery-card">
                     <div class="gallery-card-image-container">
-                        <img src="img/le-beau-le-parfum.png" alt="perfume">
+                        <img src="img/le-beau-le-parfum.png" alt="Frasco de Jean Paul Gaultier Le Beau Le Parfum">
                     </div>
-                    <p>jpg le beau le parfum</p>
-                </div>
-               <div class="gallery-card">
+                    <h3>JPG Le Beau Le Parfum</h3>
+                </article>
+
+                <article class="gallery-card">
                     <div class="gallery-card-image-container">
-                        <img src="img/myself-Ysl.png" alt="perfume">
+                        <img src="img/myself-ysl.png" alt="Frasco de YSL Myself">
                     </div>
-                    <p>Myself de Ysl</p>
-                </div> 
-                <div class="gallery-card">
+                    <h3>Myself de YSL</h3>
+                </article>
+
+                <article class="gallery-card">
                     <div class="gallery-card-image-container">
-                        <img src="img/stronger-with-you-intensely.png" alt="perfume">
+                        <img src="img/stronger-with-you-intensely.png" alt="Frasco de Stronger With You Intensely">
                     </div>
-                    <p>Stronger with you intensely</p>
-                </div> 
-                <div class="gallery-card">
+                    <h3>Stronger With You Intensely</h3>
+                </article>
+
+                <article class="gallery-card">
                     <div class="gallery-card-image-container">
-                        <img src="img/ysl-Y-EDP.jpg" alt="perfume">
+                        <img src="img/ysl-y-edp.jpg" alt="Frasco de YSL Y Eau de Parfum">
                     </div>
-                    <p>Ysl Y de Yves Saint Laurent</p>
-                </div> 
+                    <h3>YSL Y Eau de Parfum</h3>
+                </article>
+
             </div>
+        </section>
+
+
+        <!-- Niche perfumes -->
+        <section class="catalog-section" id="niche">
+
+            <div class="section-heading">
+                <p class="section-label">Colección exclusiva</p>
+
+                <h2>Nuestros perfumes de nicho</h2>
+
+                <p>
+                    Aromas con carácter para quienes buscan fragancias diferentes.
+                </p>
+            </div>
+
+            <div class="gallery-card-container">
+
+                <article class="gallery-card">
+                    <div class="gallery-card-image-container">
+                        <img src="./img/16281794-1405247591078237.jpg" alt="Frasco de Creed Aventus Absolu">
+                    </div>
+                    <h3>Creed Aventus Absolu</h3>
+                </article>
+
+                <article class="gallery-card">
+                    <div class="gallery-card-image-container">
+                        <img src="img/baccarat-rouge.jpg" alt="Frasco de Baccarat Rouge">
+                    </div>
+                    <h3>Baccarat Rouge</h3>
+                </article>
+
+                <article class="gallery-card">
+                    <div class="gallery-card-image-container">
+                        <img src="img/erba-pura.png" alt="Frasco de Erba Pura">
+                    </div>
+                    <h3>Erba Pura</h3>
+                </article>
+
+                <article class="gallery-card">
+                    <div class="gallery-card-image-container">
+                        <img src="img/imagination-lv.png" alt="Frasco de Louis Vuitton Imagination">
+                    </div>
+                    <h3>LV Imagination</h3>
+                </article>
+
+                <article class="gallery-card">
+                    <div class="gallery-card-image-container">
+                        <img src="img/tobacco-vanille-tom-ford.png" alt="Frasco de Tom Ford Tobacco Vanille">
+                    </div>
+                    <h3>Tom Ford Tobacco Vanille</h3>
+                </article>
+
+                <article class="gallery-card">
+                    <div class="gallery-card-image-container">
+                        <img src="img/torino-21.png" alt="Frasco de Torino 21">
+                    </div>
+                    <h3>Torino 21</h3>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- About the store -->
+        <section class="about-section" id="about">
+
+            <article class="about-content">
+
+                <p class="section-label">Nuestra tienda</p>
+
+                <h2>Sobre Perfumes Canarias</h2>
+
+                <p>
+                    En Perfumes Canarias reunimos perfumes de diseñador y de
+                    nicho en un mismo espacio. La idea es que puedas conocer
+                    distintas fragancias y encontrar la que mejor encaje contigo.
+                </p>
+
+                <p>
+                    Hemos organizado el catálogo en dos colecciones para que
+                    sea más sencillo explorar los perfumes.
+                </p>
+
+                <p class="inspiration-text">
+                    Referencia de diseño:
+                    <a href="https://dribbble.com/shots/27315282-Perfume-E-Commerce-Website-Design" target="_blank"
+                        rel="noopener noreferrer">
+                        Perfume E-Commerce Website Design en Dribbble
+                    </a>.
+                </p>
+
+                <a class="text-link" href="#niche">
+                    Descubrir la colección de nicho
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+
+            </article>
+
+            <aside class="about-note">
+                <i class="fa-solid fa-gem" aria-hidden="true"></i>
+
+                <h3>Dos formas de descubrir perfumes</h3>
+
+                <p>
+                    Desde fragancias populares hasta propuestas más exclusivas,
+                    cada colección tiene su propio estilo.
+                </p>
+            </aside>
 
         </section>
 
-        <section>
-            <h2>nuestros perfumes de nicho</h2>
-            <div>
-                 <div class="gallery-card">
-                    <div class="gallery-card-image-container">
-                        <img src="img/16281794-1405247591078237.jpg" alt="perfume">
-                    </div>
-                    <p>Creed Aventus Absolu</p>
-                </div> 
-                <div class="gallery-card">
-                    <div class="gallery-card-image-container">
-                        <img src="img/BACCARAT-ROUGE.jpg" alt="perfume">
-                    </div>
-                    <p>baccarat rouge</p>
-                </div> 
-                <div class="gallery-card">
-                    <div class="gallery-card-image-container">
-                        <img src="img/erba-pura.png" alt="perfume">
-                    </div>
-                    <p>Erba Pura</p>
-                </div> 
-                 <div class="gallery-card">
-                    <div class="gallery-card-image-container">
-                        <img src="img/imagination-lv.png" alt="perfume">
-                    </div>
-                    <p>LV imagination</p>
-                </div> 
-                <div class="gallery-card">
-                    <div class="gallery-card-image-container">
-                        <img src="img/tobacco-vanille-tom-ford.png" alt="perfume">
-                    </div>
-                    <p>Tom Ford Tobacco vanille</p>
-                </div> 
-                <div class="gallery-card">
-                    <div class="gallery-card-image-container">
-                        <img src="img/torino-21.png" alt="perfume">
-                    </div>
-                    <p>Torino 21</p>
-                </div> 
+
+        <!-- Perfume tips -->
+        <section class="tips-section" id="tips">
+
+            <div class="section-heading">
+                <p class="section-label">Pequeña guía</p>
+
+                <h2>Consejos para elegir tu perfume</h2>
+
+                <p>
+                    Antes de elegir una fragancia, ten en cuenta estos detalles.
+                </p>
+            </div>
+
+            <div class="tips-container">
+
+                <article class="tip-card">
+                    <i class="fa-solid fa-wind" aria-hidden="true"></i>
+
+                    <h3>Prueba el aroma</h3>
+
+                    <p>
+                        Prueba el perfume sobre la piel y deja pasar un rato
+                        para conocer cómo evoluciona.
+                    </p>
+                </article>
+
+                <article class="tip-card">
+                    <i class="fa-solid fa-sun" aria-hidden="true"></i>
+
+                    <h3>Piensa en la ocasión</h3>
+
+                    <p>
+                        Algunos aromas son más ligeros para el día y otros
+                        tienen más presencia para la noche.
+                    </p>
+                </article>
+
+                <article class="tip-card">
+                    <i class="fa-solid fa-heart" aria-hidden="true"></i>
+
+                    <h3>Elige el que te guste</h3>
+
+                    <p>
+                        Lo más importante es que disfrutes el aroma y
+                        te sientas cómodo llevándolo.
+                    </p>
+                </article>
+
             </div>
         </section>
+
+
+        <!-- Contact section -->
+        <section class="contact-section" id="contact">
+
+            <div class="contact-content">
+
+                <p class="section-label">Estamos aquí</p>
+
+                <h2>¿Buscas tu próximo perfume?</h2>
+
+                <p>
+                    Explora nuestras colecciones y descubre cuál de estas
+                    fragancias va más contigo.
+                </p>
+
+                <a class="contact-link" href="#designer">
+                    Volver a los perfumes
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+
+            </div>
+
+            <aside class="contact-note">
+                <i class="fa-solid fa-store" aria-hidden="true"></i>
+
+                <p>Perfumes Canarias</p>
+
+                <span>Un espacio para descubrir nuevos aromas.</span>
+            </aside>
+
+        </section>
+
     </main>
 
-    <footer>
-        <img src="img/Perfumes-Canarias.png" alt="perfume">
+
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <img src="img/perfumes-canarias.png" alt="Perfumes Canarias">
+
+                <p>Encuentra una fragancia para cada momento.</p>
+            </div>
+
+            <nav class="footer-nav" aria-label="Navegación del pie de página">
+                <a href="#designer">Diseñador</a>
+                <a href="#niche">Nicho</a>
+                <a href="#about">Sobre nosotros</a>
+                <a href="#contact">Contacto</a>
+            </nav>
+
+            <p class="footer-copy">
+                Perfumes Canarias · Iconos de
+                <a href="https://fontawesome.com" target="_blank" rel="noopener noreferrer">
+                    Font Awesome
+                </a>
+            </p>
+
+        </div>
+
     </footer>
 
 </body>
+
 </html>
